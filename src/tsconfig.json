@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "target": "es5",
+      "experimentalDecorators": true,
+      "skipDefaultLibCheck": true,
+      "strict": true,
+      "incremental": true,
+      "sourceMap": true,
+      "lib": ["es6", "dom"],
+      "jsx": "react"
+    },
+    "include": [
+      "**/**.ts"
+    ]
+  }
+  
