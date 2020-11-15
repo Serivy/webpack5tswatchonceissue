@@ -20,3 +20,7 @@ This repo shows a webpack 5 issue where a repo upgraded from webpack 4 when runn
 ### Actual
 8. output detects change, bundle.js has not updated.
 9. all future changes do not update bundle.js
+
+## Workaround
+In webpack.config.js line 23 change ts-loader option experimentalWatchApi to false.
+
